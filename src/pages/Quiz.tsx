@@ -18,7 +18,6 @@ const Quiz: React.FC = () => {
     
     setAnswer(currentQuestionData.id, optionId);
     
-    // Small delay for a better UX
     setTimeout(() => {
       if (currentQuestion < questions.length) {
         setCurrentQuestion(currentQuestion + 1);
@@ -35,7 +34,6 @@ const Quiz: React.FC = () => {
   };
   
   useEffect(() => {
-    // If all questions are answered, navigate to results
     if (isCompleted) {
       navigate('/resultado');
     }
@@ -74,8 +72,8 @@ const Quiz: React.FC = () => {
               <Button
                 variant="ghost"
                 onClick={handlePrevQuestion}
-                className="text-peregrinos-text hover:text-peregrinos-accent"
-              >
+                className="text-peregrinos-text hover:text-green-300"
+                >
                 Voltar para pergunta anterior
               </Button>
             </div>

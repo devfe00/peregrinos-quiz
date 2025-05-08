@@ -29,7 +29,6 @@ export const QuizProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       contemplativo: 0,
     };
 
-    // Count the occurrences of each type in the answers
     Object.values(answers).forEach(optionId => {
       const questionNumber = parseInt(optionId.charAt(0));
       const optionLetter = optionId.charAt(1);
@@ -52,7 +51,6 @@ export const QuizProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       }
     });
 
-    // Find the type with the highest count
     let maxCount = 0;
     let resultType: PeregrinoType = 'raiz';
 

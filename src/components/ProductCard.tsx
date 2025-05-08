@@ -29,8 +29,8 @@ const ProductCard: React.FC<ProductCardProps> = ({
         <h3 className="font-medium text-lg mb-1">{name}</h3>
         <p className="text-sm text-gray-600 mb-2">{description}</p>
         <div className="flex justify-between items-center">
-          <span className="font-medium text-peregrinos-accent">{price}</span>
-          <a 
+        <span className="font-medium text-green-500">{price}</span>
+        <a 
             href={url} 
             target="_blank" 
             rel="noopener noreferrer" 

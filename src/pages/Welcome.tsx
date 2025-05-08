@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -13,7 +12,7 @@ const Welcome: React.FC = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4">
-      <div className="quiz-container p-8 max-w-2xl">
+      <div className="quiz-container p-8 max-w-2xl bg-white/80 backdrop-blur-sm">
         <Header 
           title="Qual tipo de peregrino você é?" 
           subtitle="Responda 5 perguntas rápidas e descubra seu perfil de aventureiro"
@@ -21,21 +20,21 @@ const Welcome: React.FC = () => {
         
         <div className="mb-8">
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mb-8">
-            <div className="bg-peregrinos-raiz/20 rounded-lg p-4 text-center">
-              <span className="block text-3xl mb-2">🌲</span>
-              <span className="font-medium">Raiz</span>
+            <div className="peregrino-card peregrino-raiz">
+              <span className="emoji">🌲</span>
+              <span className="label">Raiz</span>
             </div>
-            <div className="bg-peregrinos-urbano/20 rounded-lg p-4 text-center">
-              <span className="block text-3xl mb-2">🏙️</span>
-              <span className="font-medium">Urbano</span>
+            <div className="peregrino-card peregrino-urbano">
+              <span className="emoji">🏙️</span>
+              <span className="label">Urbano</span>
             </div>
-            <div className="bg-peregrinos-nomade/20 rounded-lg p-4 text-center">
-              <span className="block text-3xl mb-2">🎒</span>
-              <span className="font-medium">Nômade</span>
+            <div className="peregrino-card peregrino-nomade">
+              <span className="emoji">🎒</span>
+              <span className="label">Nômade</span>
             </div>
-            <div className="bg-peregrinos-contemplativo/20 rounded-lg p-4 text-center">
-              <span className="block text-3xl mb-2">🍃</span>
-              <span className="font-medium">Contemplativo</span>
+            <div className="peregrino-card peregrino-contemplativo">
+              <span className="emoji">🍃</span>
+              <span className="label">Contemplativo</span>
             </div>
           </div>
           
@@ -47,7 +46,7 @@ const Welcome: React.FC = () => {
         <div className="flex justify-center">
           <Button 
             onClick={startQuiz} 
-            className="bg-peregrinos-accent hover:bg-peregrinos-accent/90 text-white px-8 py-2 rounded-full font-medium text-lg"
+            className="bg-green-800 hover:bg-green-700 text-white px-8 py-2 rounded-full font-medium text-lg"
           >
             Começar o teste
           </Button>

@@ -89,25 +89,25 @@ export const peregrinoProfiles: Record<PeregrinoType, PeregrinoProfile> = {
     bgColor: "#ECFDF5",
     products: [
       {
-        name: "Mochila Terra",
-        description: "Perfeita para trilhas, com compartimentos para equipamento e hidratação",
+        name: "Mochila Inoxto",
+        description: "Perfeita para trilhas, com compartimentos para equipamento e hidratação.",
         imageUrl: "/placeholder.svg",
-        price: "R$ 259,90",
-        url: "https://peregrinos.com/products/mochila-terra"
+        price: "R$ 259,99",
+        url: "https://peregrinosout.com/products/inoxto-portable-waterproof-bicycle-backpack-10-liters-water-bag-suitable-for-outdoor-sports-mountaineering-hiking-hydratio"
       },
       {
-        name: "Cantil Montanha",
-        description: "Mantém sua água fresca mesmo nas trilhas mais quentes",
+        name: "Garrafa Térmica",
+        description: "Mantém sua água fresca mesmo nas trilhas mais quentes.",
         imageUrl: "/placeholder.svg",
-        price: "R$ 89,90",
-        url: "https://peregrinos.com/products/cantil-montanha"
+        price: "R$ 89,99",
+        url: "https://peregrinosout.com/products/650ml-outdoor-sports-304-bottle-stainless-steel-vacuum-cup-thermal-cup-car-handle-cup"
       },
       {
-        name: "Chapéu Trek",
-        description: "Proteção UV e secagem rápida para suas aventuras ao ar livre",
+        name: "Chapéu Bucket",
+        description: "Proteção UV e secagem rápida para suas aventuras ao ar livre.",
         imageUrl: "/placeholder.svg",
-        price: "R$ 79,90",
-        url: "https://peregrinos.com/products/chapeu-trek"
+        price: "R$ 269,99",
+        url: "https://peregrinosout.com/products/ohsunny-double-sided-wearing-cap-solid-color-anti-uv-sunscreen-bucket-hats-for-women-summer-foldable-large-brim-fisherman-hat"
       }
     ]
   },
@@ -119,25 +119,25 @@ export const peregrinoProfiles: Record<PeregrinoType, PeregrinoProfile> = {
     bgColor: "#EEF2FF",
     products: [
       {
-        name: "Mochila Urbana",
-        description: "Estilo e praticidade para suas aventuras pela cidade",
+        name: "Drone ®Peregrinos",
+        description: "Estilo e praticidade para suas aventuras pela cidade.",
         imageUrl: "/placeholder.svg",
-        price: "R$ 229,90",
-        url: "https://peregrinos.com/products/mochila-urbana"
+        price: "R$ 509,99",
+        url: "https://peregrinosout.com/products/rc-drone-5g-wifi-fpv-laser-obstacle-avoidance-brushless-motor-gps-return-4k-hd-dual-camera-rc-quadcopter-drone-toys"
       },
       {
         name: "Bolsa Crossbody City",
-        description: "Compacta e segura para carregar seus essenciais urbanos",
+        description: "Compacta e segura para carregar seus essenciais urbanos.",
         imageUrl: "/placeholder.svg",
-        price: "R$ 139,90",
-        url: "https://peregrinos.com/products/bolsa-crossbody-city"
+        price: "R$ 309,99",
+        url: "https://peregrinosout.com/products/waterproof-nylon-bag-camping-travel-backpack-with-rain-cover-outdoor-hiking-mountaineering-men-shoulder-climbing-traveling-bags"
       },
       {
-        name: "Pochete Moderna",
-        description: "Estilo com praticidade para explorar sem pesos extras",
+        name: "Computador de Bike",
+        description: "Tecnologia e praticidade para monitorar sua performance e explorar sem limites.",
         imageUrl: "/placeholder.svg",
-        price: "R$ 99,90",
-        url: "https://peregrinos.com/products/pochete-moderna"
+        price: "R$ 234,99",
+        url: "https://peregrinosout.com/products/cycplus-m1-bike-accessories-gps-bicycle-computer-cycling-speedometer-ble-5-0-ant-cycle-ciclismo-kilometer-counter-for-bicycle"
       }
     ]
   },
@@ -149,25 +149,25 @@ export const peregrinoProfiles: Record<PeregrinoType, PeregrinoProfile> = {
     bgColor: "#FEF3C7",
     products: [
       {
-        name: "Mochila Freedom",
-        description: "Espaçosa e versátil para carregar tudo que você precisa",
+        name: "Mochila ®Peregrinos",
+        description: "Espaçosa e versátil para carregar tudo que você precisa.",
         imageUrl: "/placeholder.svg",
-        price: "R$ 299,90",
-        url: "https://peregrinos.com/products/mochila-freedom"
+        price: "R$ 499,99",
+        url: "https://peregrinosout.com/products/1pc-50l-waterproof-hiking-backpack-large-capacity-mountaineering-bag-for-outdoor-travel-climbing-camping-men-women-suitable-2"
       },
       {
         name: "Kit Organizador",
-        description: "Mantenha suas roupas e itens sempre organizados durante as viagens",
+        description: "Mantenha seus itens sempre organizados durante as viagens.",
         imageUrl: "/placeholder.svg",
-        price: "R$ 129,90",
-        url: "https://peregrinos.com/products/kit-organizador"
+        price: "R$ 289,99",
+        url: "https://peregrinosout.com/products/orbmart-for-gopro-accessories-set-for-go-pro-hero-13-12-11-10-9-8-7-6-5-4-black-mount-for-dji-insta360-for-sjcam-action-camera?_pos=1&_psq=kit&_ss=e&_v=1.0"
       },
       {
         name: "Pochete Adventure",
-        description: "Resistente à água e com múltiplos compartimentos secretos",
+        description: "Resistente à água e com múltiplos compartimentos secretos.",
         imageUrl: "/placeholder.svg",
-        price: "R$ 119,90",
-        url: "https://peregrinos.com/products/pochete-adventure"
+        price: "R$ 44,99",
+        url: "https://peregrinosout.com/products/sports-bag-running-slim-waterproof-mobile-phone-door-water-bottle-hiking-running-gym-promotion"
       }
     ]
   },
@@ -179,25 +179,25 @@ export const peregrinoProfiles: Record<PeregrinoType, PeregrinoProfile> = {
     bgColor: "#EFF6FF",
     products: [
       {
-        name: "Mochila Serenity",
-        description: "Design minimalista e confortável para jornadas tranquilas",
+        name: "Barra Camping",
+        description: "Design ultraleve e compacto para aventuras ao ar livre com conforto e praticidade.",
         imageUrl: "/placeholder.svg",
-        price: "R$ 259,90",
-        url: "https://peregrinos.com/products/mochila-serenity"
+        price: "R$ 899,99",
+        url: "https://peregrinosout.com/products/naturehike-cloud-up-1-single-man-1-person-camping-tent-outdoor-ultralight-camp-tents-2018-updated-version-nh15t001-t"
       },
       {
-        name: "Bolsa Horizon",
-        description: "Elegante e espaçosa para carregar seu diário e livros favoritos",
+        name: "Binósculo Profissional",
+        description: "Alta performance para observações de longa distância com clareza e precisão.",
         imageUrl: "/placeholder.svg",
-        price: "R$ 179,90",
-        url: "https://peregrinos.com/products/bolsa-horizon"
+        price: "R$ 359,99",
+        url: "https://peregrinosout.com/products/professional-binoculars-8x40-168m-1000m-vision-long-range-bag"
       },
       {
-        name: "Necessaire Essentials",
-        description: "Para guardar seus itens pessoais com organização e estilo",
+        name: "Lanterna ®Peregrinos",
+        description: "Ilumine suas aventuras com design compacto e potente para qualquer desafio.",
         imageUrl: "/placeholder.svg",
-        price: "R$ 69,90",
-        url: "https://peregrinos.com/products/necessaire-essentials"
+        price: "R$ 239,99",
+        url: "https://peregrinosout.com/products/sofirn-hs42-2100lm-6000k-multi-light-sources-3000mah-headlamp-sst40-led-red-light-torch-usb-c-rechargeable-with-magnetic-2"
       }
     ]
   }
