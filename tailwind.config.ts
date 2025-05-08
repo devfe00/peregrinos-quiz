@@ -113,8 +113,4 @@ export default {
 		}
 	},
 	plugins: [tailwindcssAnimate],
-<<<<<<< HEAD
 } satisfies Config;
-=======
-} satisfies Config;
->>>>>>> 52249fa (quiz)

@@ -12,8 +12,8 @@ const Welcome: React.FC = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4">
-      <div className="quiz-container p-8 max-w-2xl bg-white/80 backdrop-blur-sm">
-        <Header 
+<div className="quiz-container p-8 max-w-2xl bg-green-200/40 backdrop-blur-sm">
+<Header 
           title="Qual tipo de peregrino você é?" 
           subtitle="Responda 5 perguntas rápidas e descubra seu perfil de aventureiro"
         />
