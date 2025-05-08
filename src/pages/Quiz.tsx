@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -79,6 +78,12 @@ const Quiz: React.FC = () => {
             </div>
           )}
         </div>
+        
+        <footer className="mt-8 text-center">
+          <p className="text-sm text-gray-700 mb-6">
+            ©2025 Peregrinos.Inc | Todos os direitos reservados
+          </p>
+        </footer>
       </div>
     </div>
   );

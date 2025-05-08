@@ -51,6 +51,12 @@ const Welcome: React.FC = () => {
             Começar o teste
           </Button>
         </div>
+
+        <footer className="mt-8 text-center">
+          <p className="text-sm text-gray-700 mb-6">
+            ©2025 Peregrinos.Inc | Todos os direitos reservados
+          </p>
+        </footer>
       </div>
     </div>
   );
