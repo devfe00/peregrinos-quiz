@@ -29,12 +29,9 @@ const Result: React.FC = () => {
     setIsSubmitting(true);
     
     try {
-      const message = `O usuário com o e-mail ${email} acabou de se inscrever.`;
-            const encodedMessage = encodeURIComponent(message);
-      const whatsappUrl = `https://wa.me/5513991948731?text=${encodedMessage}`;
-      
+      const message = `Novo peregrino na trilha, Rapaziada! %0A%0A${email} acabei de me inscrever e quero as melhores novidades.`;
+      const whatsappUrl = `https://wa.me/5513991948731?text=${message}`;
       window.open(whatsappUrl, '_blank');
-      
       toast({
         title: 'Email cadastrado com sucesso!',
         description: 'Você receberá novidades da Peregrinos em breve.',
