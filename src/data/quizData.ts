@@ -1,4 +1,3 @@
-
 export interface QuizQuestion {
   id: number;
   question: string;
@@ -35,7 +34,7 @@ export const questions: QuizQuestion[] = [
       { id: "1a", text: "Trilhas na natureza", emoji: "🌲", type: "raiz" },
       { id: "1b", text: "Rolês urbanos e culturais", emoji: "🏙️", type: "urbano" },
       { id: "1c", text: "Mochilão raiz em qualquer canto", emoji: "🎒", type: "nomade" },
-      { id: "1d", text: "Ficar de boa, só absorvendo a vibe", emoji: "🍃", type: "contemplativo" }
+      { id: "1d", text: "De boa, só absorvendo a vibe", emoji: "🍃", type: "contemplativo" }
     ]
   },
   {
@@ -44,7 +43,7 @@ export const questions: QuizQuestion[] = [
     options: [
       { id: "2a", text: "Preciso respirar ar puro", emoji: "🌬️", type: "raiz" },
       { id: "2b", text: "Onde tem arte, tem eu", emoji: "🎨", type: "urbano" },
-      { id: "2c", text: "Bora sem rumo, o caminho se faz andando", emoji: "🧭", type: "nomade" },
+      { id: "2c", text: "Bora sem rumo", emoji: "🧭", type: "nomade" },
       { id: "2d", text: "Prefiro observar do que aparecer", emoji: "👀", type: "contemplativo" }
     ]
   },
@@ -52,7 +51,7 @@ export const questions: QuizQuestion[] = [
     id: 3,
     question: "Um item indispensável pra sua jornada:",
     options: [
-      { id: "3a", text: "Bota firme", emoji: "👢", type: "raiz" },
+      { id: "3a", text: "Bota firme", emoji: "🥾", type: "raiz" },
       { id: "3b", text: "Caderninho de anotações", emoji: "📓", type: "urbano" },
       { id: "3c", text: "Cantil ou garrafinha", emoji: "🍶", type: "nomade" },
       { id: "3d", text: "Óculos escuros estilosos", emoji: "😎", type: "contemplativo" }
@@ -70,12 +69,12 @@ export const questions: QuizQuestion[] = [
   },
   {
     id: 5,
-    question: "Qual dessas músicas te representa mais?",
+    question: "Qual dessas Músicas te representa mais?",
     options: [
-      { id: "5a", text: "Natureza — sons da floresta", emoji: "🌳", type: "raiz" },
+      { id: "5a", text: "Sons da Floresta", emoji: "🌳", type: "raiz" },
       { id: "5b", text: "Indie alternativo", emoji: "🎸", type: "urbano" },
       { id: "5c", text: "Reggae ou lo-fi", emoji: "💨", type: "nomade" },
-      { id: "5d", text: "Música instrumental ou chill", emoji: "🎧", type: "contemplativo" }
+      { id: "5d", text: "Instrumental ou Chill", emoji: "🎧", type: "contemplativo" }
     ]
   }
 ];
@@ -89,23 +88,23 @@ export const peregrinoProfiles: Record<PeregrinoType, PeregrinoProfile> = {
     bgColor: "#ECFDF5",
     products: [
       {
-        name: "Mochila Inoxto",
+        name: "Mochila ®Peregrinos",
         description: "Perfeita para trilhas, com compartimentos para equipamento e hidratação.",
-        imageUrl: "/placeholder.svg",
-        price: "R$ 259,99",
-        url: "https://peregrinosout.com/products/inoxto-portable-waterproof-bicycle-backpack-10-liters-water-bag-suitable-for-outdoor-sports-mountaineering-hiking-hydratio"
+        imageUrl: "/products/mochila-peregrinos.jpg",
+        price: "R$ 499,99",
+        url: "https://peregrinosout.com/products/westtune-50l-hiking-backpack-with-rain-cover-multifunctional-mountaineering-bag-outdoor-rucksack-for-travel-trekking-camping"
       },
       {
         name: "Garrafa Térmica",
         description: "Mantém sua água fresca mesmo nas trilhas mais quentes.",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/products/garrafa-termica.jpg",
         price: "R$ 89,99",
         url: "https://peregrinosout.com/products/650ml-outdoor-sports-304-bottle-stainless-steel-vacuum-cup-thermal-cup-car-handle-cup"
       },
       {
         name: "Chapéu Bucket",
         description: "Proteção UV e secagem rápida para suas aventuras ao ar livre.",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/products/chapeu-bucket.jpg",
         price: "R$ 269,99",
         url: "https://peregrinosout.com/products/ohsunny-double-sided-wearing-cap-solid-color-anti-uv-sunscreen-bucket-hats-for-women-summer-foldable-large-brim-fisherman-hat"
       }
@@ -121,21 +120,21 @@ export const peregrinoProfiles: Record<PeregrinoType, PeregrinoProfile> = {
       {
         name: "Drone ®Peregrinos",
         description: "Estilo e praticidade para suas aventuras pela cidade.",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/products/drone.jpg",
         price: "R$ 509,99",
         url: "https://peregrinosout.com/products/rc-drone-5g-wifi-fpv-laser-obstacle-avoidance-brushless-motor-gps-return-4k-hd-dual-camera-rc-quadcopter-drone-toys"
       },
       {
-        name: "Bolsa Crossbody City",
+        name: "Mochila com Capa",
         description: "Compacta e segura para carregar seus essenciais urbanos.",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/products/bolsa-crossbody.jpg",
         price: "R$ 309,99",
         url: "https://peregrinosout.com/products/waterproof-nylon-bag-camping-travel-backpack-with-rain-cover-outdoor-hiking-mountaineering-men-shoulder-climbing-traveling-bags"
       },
       {
         name: "Computador de Bike",
         description: "Tecnologia e praticidade para monitorar sua performance e explorar sem limites.",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/products/computador-bike.jpg",
         price: "R$ 234,99",
         url: "https://peregrinosout.com/products/cycplus-m1-bike-accessories-gps-bicycle-computer-cycling-speedometer-ble-5-0-ant-cycle-ciclismo-kilometer-counter-for-bicycle"
       }
@@ -151,21 +150,21 @@ export const peregrinoProfiles: Record<PeregrinoType, PeregrinoProfile> = {
       {
         name: "Mochila ®Peregrinos",
         description: "Espaçosa e versátil para carregar tudo que você precisa.",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/products/mochila-peregrinos2.jpg",
         price: "R$ 499,99",
         url: "https://peregrinosout.com/products/1pc-50l-waterproof-hiking-backpack-large-capacity-mountaineering-bag-for-outdoor-travel-climbing-camping-men-women-suitable-2"
       },
       {
         name: "Kit Organizador",
         description: "Mantenha seus itens sempre organizados durante as viagens.",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/products/kit-organizador.jpg",
         price: "R$ 289,99",
         url: "https://peregrinosout.com/products/orbmart-for-gopro-accessories-set-for-go-pro-hero-13-12-11-10-9-8-7-6-5-4-black-mount-for-dji-insta360-for-sjcam-action-camera?_pos=1&_psq=kit&_ss=e&_v=1.0"
       },
       {
         name: "Pochete Adventure",
         description: "Resistente à água e com múltiplos compartimentos secretos.",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/products/pochete-adventure.jpg",
         price: "R$ 44,99",
         url: "https://peregrinosout.com/products/sports-bag-running-slim-waterproof-mobile-phone-door-water-bottle-hiking-running-gym-promotion"
       }
@@ -181,21 +180,21 @@ export const peregrinoProfiles: Record<PeregrinoType, PeregrinoProfile> = {
       {
         name: "Barra Camping",
         description: "Design ultraleve e compacto para aventuras ao ar livre com conforto e praticidade.",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/products/barra-camping.jpg",
         price: "R$ 899,99",
         url: "https://peregrinosout.com/products/naturehike-cloud-up-1-single-man-1-person-camping-tent-outdoor-ultralight-camp-tents-2018-updated-version-nh15t001-t"
       },
       {
         name: "Binósculo Profissional",
         description: "Alta performance para observações de longa distância com clareza e precisão.",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/products/binosculo.jpg",
         price: "R$ 359,99",
         url: "https://peregrinosout.com/products/professional-binoculars-8x40-168m-1000m-vision-long-range-bag"
       },
       {
         name: "Lanterna ®Peregrinos",
         description: "Ilumine suas aventuras com design compacto e potente para qualquer desafio.",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/products/lanterna.jpg",
         price: "R$ 239,99",
         url: "https://peregrinosout.com/products/sofirn-hs42-2100lm-6000k-multi-light-sources-3000mah-headlamp-sst40-led-red-light-torch-usb-c-rechargeable-with-magnetic-2"
       }

@@ -39,7 +39,7 @@ const Welcome: React.FC = () => {
           </div>
           
           <p className="text-center mb-8">
-            Ao final, você receberá um perfil personalizado com recomendações de produtos para tornar suas aventuras ainda mais especiais!
+            Ao final, você receberá um perfil personalizado com recomendações de produtos para tornar suas aventuras ainda mais especiais.
           </p>
         </div>
         

@@ -72,7 +72,7 @@ const Quiz: React.FC = () => {
               <Button
                 variant="ghost"
                 onClick={handlePrevQuestion}
-                className="text-peregrinos-text hover:text-green-300"
+                className="text-peregrinos-text hover:text-green-700"
                 >
                 Voltar para pergunta anterior
               </Button>

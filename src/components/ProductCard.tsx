@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface ProductCardProps {
@@ -18,11 +17,11 @@ const ProductCard: React.FC<ProductCardProps> = ({
 }) => {
   return (
     <div className="bg-white rounded-lg shadow overflow-hidden transition-transform hover:scale-105">
-      <div className="h-40 bg-gray-200 overflow-hidden">
+      <div className="h-48 bg-gray-200 overflow-hidden flex items-center justify-center">
         <img 
           src={imageUrl} 
           alt={name} 
-          className="w-full h-full object-cover"
+          className="w-full object-contain"
         />
       </div>
       <div className="p-4">
